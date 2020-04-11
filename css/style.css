@@ -22,7 +22,7 @@
 }
 
 /* banner */
-.big-banner {
+.jumbotron {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,12 +31,13 @@
   background-image: url('../images/home/Background/hbg2.jpg');
   min-height: 300px;
   height: 100vh;
+  padding-top: 150px;
   background-repeat: no-repeat;
 }
 
-.jumbotron {
+/* .jumbotron {
   padding-top: 150px;
-}
+} */
 
 /************* Stories ***********************/
 .story {
