@@ -1,0 +1,78 @@
+/* Navbar */
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* a {
+  color:white !important;
+} */
+
+/* Logo */
+.logo {
+  height: 50px;
+  padding-top: 3px;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+/* .navbar-nav img {
+
+} */
+
+/* banner */
+.big-banner {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('../images/home/bg.jpg');
+  min-height: 300px;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  padding-top: 150px;
+}
+
+
+
+
+
+/* Stories */
+.story {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url('../images/stories/sbg.jpg');
+  min-height: 430px;
+  height: 50vh;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+/* Social media buttons */
+
+
+
+
+/* END */
+
+
+.footer-copyright a {
+  color: #fff !important;
+}
