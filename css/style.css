@@ -27,7 +27,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url('../images/home/bg.jpg');
+  /* background-image: url('../images/home/Background/bg.jpg'); */
+  background-image: url('../images/home/Background/hbg2.jpg');
   min-height: 300px;
   height: 100vh;
   background-repeat: no-repeat;
