@@ -15,21 +15,22 @@
 <body>
   <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-info fixed-top">
+    <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-dark">
       <div class="container">
+
         <a class="navbar-brand img-responsive logo" href="#"><img src="../images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+        <!-- Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto text-uppercase">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Stories</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="../pages/stories.html">Stories</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">News</a>
@@ -41,7 +42,16 @@
               <a class="nav-link" href="#">Share your story</a>
             </li>
           </ul>
+          <!-- Social Media icons -->
+          <ul class="navbar-nav social">
+            <li><a href="http://www.facebook.com"><img src='../images/Social Media/fb.png' /></a></li>
+            <li><a href="http://www.twitter.com"><img src='../images/Social Media/tw.png' /></a></li>
+            <li><a href="https://www.instagram.com/"><img src='../images/Social Media/inst.png' /></a></li>
+          </ul>
+
+
         </div>
+
       </div>
     </nav>
   </header>
@@ -178,100 +188,12 @@
     </div>
   </div>
 
-
   <!-- Footer -->
-  <footer class="page-footer font-small indigo bg-info text-light">
-
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-
-          <!-- Links -->
-          <h6 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h6>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Very long link 1</a>
-            </li>
-            <li>
-              <a href="#!">Very long link 2</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-
-          <!-- Links -->
-          <h6 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h6>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-
-          <!-- Links -->
-          <h6 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h6>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-          </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mx-auto">
-
-          <!-- Links -->
-          <h6 class="font-weight-bold text-uppercase mt-3 mb-2">Links</h6>
-
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-          </ul>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- Footer Links -->
+  <footer class="page-footer font-small bg-info">
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <div class="footer-copyright text-center py-3 text-light">© Copyright:
+      <script>document.write(new Date().getFullYear()) </script>
       <a href="#"> SamDev.com</a>
     </div>
 
