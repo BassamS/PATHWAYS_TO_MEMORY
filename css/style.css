@@ -1,3 +1,8 @@
+/* Body */
+body {
+  background-color: rgba(240, 234, 229, 0.676);
+}
+
 /* Navbar */
 .navbar-brand {
   margin: 0;
@@ -35,23 +40,25 @@
   background-repeat: no-repeat;
 }
 
-/* .jumbotron {
-  padding-top: 150px;
-} */
-
 /************* Stories ***********************/
-.story {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-image: url('../images/stories/sbg.jpg');
-  min-height: 430px;
-  height: 50vh;
-  background-repeat: no-repeat;
+
+.quote{
+  margin-top: 200px;
 }
 
 /* Footer */
 .footer-copyright a {
   color: #fff !important;
 }
+
+
+
+
+
+
+
+
+
+
+/**************************** Contact Us ***********************************/
+
