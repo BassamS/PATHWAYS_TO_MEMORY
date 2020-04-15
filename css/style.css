@@ -28,6 +28,10 @@ body {
   border-radius: 50%;
 }
 
+.navbar-nav.social {
+  flex-direction: row;
+}
+
 /* banner */
 .jumbotron {
   -webkit-background-size: cover;
