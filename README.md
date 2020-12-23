@@ -7,8 +7,8 @@ The project is thought as a storytelling blog or website, but it could be adapte
 
 ## Technologies used:
 
-HTML5,
-CSS3 
-Bootstrap
+### HTML5
+### CSS3 
+### Bootstrap
 
 https://bassams.github.io/PATHWAYS_TO_MEMORY/
